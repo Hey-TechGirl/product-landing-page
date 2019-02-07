@@ -6,7 +6,7 @@
     <title>Girl Learning Tech - Product Page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps" rel="stylesheet">
   </head>
@@ -28,7 +28,7 @@
       <!-- Newsletter Form -->
       <div class="container">
         <section id="form">
-          <h1>Subscribe to our Newsletter for 10% Discount.</h1>
+          <h1>Subscribe to our Newsletter <span id="inline">for 10% Discount.</span></h1>
           <form class="info" action="https://girllearningtech.com/email-submit:624">
             <input id="email" type="email" name="email" placeholder="Enter your email." required>
             <input type="submit" id="submit" name="" value="Get Free Tips">
@@ -37,83 +37,85 @@
         <!-- Common Info About Products -->
         <section id="features">
           <div class="grid">
-            <img id="icon "src="images\video.png" alt="icon-video">
+            <img id="icon" src="images\video.png" alt="icon-video">
             <div class="desc">
-              <h2>Blah</h2>
-              <p>BlahBlahBlah</p>
+              <h2>Flexible</h2>
+              <p>Learning a new skill doesn’t have to interrupt your busy schedule. Our on-demand videos and interactive code challenges are there for you when you need them.</p>
             </div>
           </div>
           <div class="grid">
             <img id="icon" src="images\tools.png" alt="icon-tools">
             <div class="desc">
-              <h2>Blah</h2>
-              <p>BlahBlahBlah</p>
+              <h2>Practical</h2>
+              <p>We believe in learning by doing. We teach you how to create projects you'll actually want to make, from scratch, and then get them online. Plus, they never expire.</p>
             </div>
           </div>
           <div class="grid">
             <img id="icon" src="images\speak.png" alt="icon-speak">
             <div class="desc">
-              <h2>Blah</h2>
-              <p>BlahBlahBlah</p>
-            </div>
-          </div>
-          <div class="grid">
-            <i id="icon" class="BlahBlahBlah"></i>
-            <div class="desc">
-              <h2>Blah</h2>
-              <p>BlahBlahBlah</p>
+              <h2>Supportive</h2>
+              <p>You don't have to learn on your own. You're always welcome to join a talented, diverse and supportive community of students from several countries around the world.</p>
             </div>
           </div>
         </section>
         <!-- Video About the Companie -->
         <section id="how-it-works">
-          <iframe id="video" height="BlahBlahBlah" src="BlahBlahBlahshowinfo=0" frameborder="0" allowfullscreen></iframe>
+          <h2 id="title">So, let get started <i class="fas fa-chalkboard-teacher"></i>.<br>How the internet works? <span id="inline">Who invented it?</span></h2>
+          <div class="video-container">
+            <iframe width="560" height="394" src="https://www.youtube.com/embed/21eFwbb48sE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </section>
         <!-- Resume of Products and Price -->
         <section id="pricing">
-          <div id="Blah1">
+          <div id="apprentice">
             <div class="price-title">
-              BlahBlahBlah
+              Apprentice
             </div>
-            <h2>$XXX</h2>
-            <ol>
-              <li>BlahBlahBlah</li>
-              <li>BlahBlahBlah</li>
-              <li>BlahBlahBlah</li>
-              <li>BlahBlahBlah</li>
-            </ol>
-            <button class="btn">Select</button>
+            <div class="info">
+              <h2>$9,90 <span>/month</span></h2>
+              <ol>
+                <li>Entire course library</li>
+                <li>Learning paths</li>
+                <li>Access to forum</li>
+                <li>Courses certificates</li>
+              </ol>
+              <button class="btn">Select</button>
+            </div>
           </div>
-          <div id="Blah2">
+          <div id="jedi">
             <div class="price-title">
-              BlahBlahBlah
+              Intermediate
             </div>
-            <h2>$XXX</h2>
-            <ol>
-              <li>BlahBlahBlah</li>
-              <li>BlahBlahBlah</li>
-              <li>BlahBlahBlah</li>
-              <li>BlahBlahBlah</li>
-            </ol>
-            <button class="btn">Select</button>
+            <div class="info">
+              <h2>$24,90 <span>/month</span></h2>
+              <ol>
+                <li>Course learning checks</li>
+                <li>Exercise files</li>
+                <li>Personal tutor</li>
+                <li>Course discussions</li>
+              </ol>
+              <button class="btn">Select</button>
+            </div>
           </div>
-          <div id="Blah3">
+          <div id="master">
             <div class="price-title">
-              BlahBlahBlah
+              Jedi
             </div>
-            <h2>$XXX</h2>
-            <ol>
-              <li>BlahBlahBlah</li>
-              <li>BlahBlahBlah</li>
-              <li>BlahBlahBlah</li>
-              <li>BlahBlahBlah</li>
-            </ol>
-            <button class="btn">Select</button>
+            <div class="info">
+              <h2>39,90 <span>/month</span></h2>
+              <ol>
+                <li>Certification practice</li>
+                <li>Interactive courses</li>
+                <li>More than 200 Projects</li>
+                <li>Personal Tutor Webinars</li>
+              </ol>
+              <button class="btn">Select</button>
+            </div>
           </div>
         </section>
         <!-- Contact for Further Questions -->
         <section id="questions">
-          <p>See skillcrush model end of the page https://skillcrush.com/skillcrush-blueprints/</p>
+          <h2>More Questions? We're Here For You. <span id="inline">Email us anytime.</span></h2>
         </section>
       </div>
     </main>
